@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from colorama import Fore, Style
 
 def g():
-    return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz0123456789', k=3))
+    return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz0123456789', k=4))
 
 def c(u):
     r = requests.get(f"https://github.com/{u}")
